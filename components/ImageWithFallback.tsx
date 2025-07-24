@@ -19,7 +19,7 @@ const ImageWithFallback = (props: {
       alt={props.alt}
       onError={() => {
         setImgSrc(
-          "https://davidkoepp.com/wp-content/themes/blankslate/images/Movie%20Placeholder.jpg"
+          "/images/placeholder.jpeg"
         );
       }}
     />
