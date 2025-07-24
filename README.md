@@ -1,8 +1,14 @@
-# 🎬 AI-Powered Movie Recommendation System
+# <img src="public/favicon.svg" width="50" height="50" alt="VectorCinema Logo" style="vertical-align: middle;"> VectorCinema
+
+![VectorCinema Banner](public/images/vectorcinema-banner.jpg)
+
+*AI-Powered Movie Discovery Through Vector Similarity*
+
+---
 
 A modern, intelligent movie recommendation system built with **Next.js 14**, **DataStax Astra DB**, and **AI-powered vector embeddings**. Discover movies through semantic search and get personalized recommendations based on advanced similarity algorithms.
 
-![Movie Recommendation System](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![Movie Recommendaton System](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
 ![DataStax Astra DB](https://img.shields.io/badge/DataStax-Astra%20DB-blue?style=for-the-badge)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
