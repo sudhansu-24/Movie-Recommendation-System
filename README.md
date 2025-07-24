@@ -319,26 +319,9 @@ Enable debug logging by checking the browser console and terminal output when vi
 - Update documentation for API changes
 - Use semantic commit messages
 
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **DataStax** for Astra DB vector database platform
-- **OpenAI** for embedding models and AI capabilities
-- **Next.js** team for the amazing React framework
-- **Vercel** for seamless deployment platform
-- **Tailwind CSS** for utility-first styling
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/sudhansu-24/Movie-Recommendation-System/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/sudhansu-24/Movie-Recommendation-System/discussions)
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+THIS IS ONLY FOR EDUCATIONAL PURPOSE
 
 ---
 
 **⭐ Star this repository if you found it helpful!**
 
-**🔧 Built with passion by [Sudhansu](https://github.com/sudhansu-24)**
