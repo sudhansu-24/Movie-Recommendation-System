@@ -1,6 +1,6 @@
-# <img src="public/favicon.svg" width="50" height="50" alt="VectorCinema Logo" style="vertical-align: middle;"> VectorCinema
+# <img src="public/favicon.svg" width="50" height="50" alt="VectorCinema Logo" style="vertical-align: middle;"> AI-Powered Movie Recommendation System
 
-![VectorCinema Banner](public/images/vectorcinema-banner.jpg)
+![VectorCinema Banner](public/images/vectorcinema-banner.png)
 
 *AI-Powered Movie Discovery Through Vector Similarity*
 
