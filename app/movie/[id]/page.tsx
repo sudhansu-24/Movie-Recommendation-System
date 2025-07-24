@@ -44,21 +44,6 @@ async function MoviePage({
     )
     .toArray()) as SimilarMovie[];
 
-  // Debug logging to see what movies are being returned
-  console.log(`\n=== SIMILAR MOVIES DEBUG for "${movie.Title}" ===`);
-  console.log('Current movie ID:', id);
-  console.log('Vector exists:', !!movie.$vector);
-  console.log('Vector length:', movie.$vector?.length || 0);
-  console.log('$vectorize exists:', !!movie.$vectorize);
-  console.log('$vectorize content:', movie.$vectorize ? movie.$vectorize.substring(0, 100) + '...' : 'N/A');
-  console.log('Movie object keys:', Object.keys(movie));
-  console.log('Fields starting with $:', Object.keys(movie).filter(key => key.startsWith('$')));
-  console.log('Similar movies found:', similarMovies.length);
-  similarMovies.forEach((sim, i) => {
-    console.log(`${i + 1}. ${sim.Title} (ID: ${sim._id}, Similarity: ${Math.round((sim.$similarity || 0) * 100)}%)`);
-  });
-  console.log('=====================================\n');
-
   return (
     <div>
       <div className="flex flex-col md:flex-row items-center gap-y-10 p-10 pb-0">
