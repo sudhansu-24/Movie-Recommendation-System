@@ -1,7 +1,15 @@
 {
-  "name": "datastax-movie-reccomendation",
+  "name": "vectorcinema",
   "version": "0.1.0",
   "private": true,
+  "description": "AI-powered movie recommendation system with vector similarity search",
+  "homepage": "https://vectorcinema.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudhansu-24/VectorCinema.git"
+  },
+  "keywords": ["movie", "recommendation", "ai", "vector", "cinema", "nextjs", "astra-db"],
+  "author": "Sudhansu",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

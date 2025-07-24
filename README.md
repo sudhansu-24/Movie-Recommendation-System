@@ -206,7 +206,7 @@ The system provides clean, RESTful routes:
 ### Project Structure
 
 ```
-Movie-Recommendation/
+VectorCinema/
 ├── app/                    # Next.js 14 App Router
 │   ├── movie/[id]/        # Movie details pages
 │   ├── search/[term]/     # Search results pages
