@@ -36,7 +36,7 @@ export default function RootLayout({
         <main className="bg-slate-50/50 shadow-2xl drop-shadow-2xl">
           <Header />
           
-          <div className="pt-40">
+          <div className="pt-44">
             {children}
           </div>
         </main>
