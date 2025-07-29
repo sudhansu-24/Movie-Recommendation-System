@@ -27,7 +27,7 @@ async function SearchTerm({
     .toArray()) as Movie[];
 
   return (
-    <div className="flex flex-col items-center justify-center p-20 pt-10">
+    <div className="flex flex-col items-center justify-center p-20">
       <h1 className="mb-10 text-xl text-gray-100">
         Suggested results based on your search
       </h1>
