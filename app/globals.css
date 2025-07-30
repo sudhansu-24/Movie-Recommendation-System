@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Dark theme custom styles */
+@layer base {
+  :root {
+    --dark-primary: #0a0a0a;
+    --dark-secondary: #1a1a1a;
+    --dark-accent: #2a2a2a;
+    --dark-border: #333333;
+    --dark-text: #e5e5e5;
+    --dark-muted: #9ca3af;
+  }
+  
+  .dark {
+    color-scheme: dark;
+  }
+  
+  /* Custom scrollbar for dark theme */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--dark-secondary);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--dark-border);
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4a4a4a;
+  }
+}
+
+/* Smooth transitions for hover effects */
+@layer utilities {
+  .transition-all-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

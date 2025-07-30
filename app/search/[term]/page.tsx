@@ -28,14 +28,14 @@ async function SearchTerm({
 
   return (
     <div className="flex flex-col items-center justify-center p-20">
-      <h1 className="mb-10 text-xl text-gray-100">
+      <h1 className="mb-10 text-xl text-dark-text">
         Suggested results based on your search
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
         {similarMovies.map((movie, i) => (
           <div key={movie._id} className="flex space-x-2 relative">
-            <p className="absolute flex items-center justify-center left-4 top-2 text-white font-extrabold text-xl z-40 rounded-full bg-indigo-500/80 w-10 h-10">
+            <p className="absolute flex items-center justify-center left-4 top-2 text-white font-extrabold text-xl z-40 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 w-10 h-10 shadow-lg">
               {i + 1}
             </p>
 

@@ -45,22 +45,22 @@ async function MoviePage({
     .toArray()) as SimilarMovie[];
 
   return (
-    <div>
+    <div className="text-dark-text">
       <div className="flex flex-col md:flex-row items-center gap-y-10 p-10 pb-0">
         <Image
           src={movie.Poster}
           alt={movie.Title}
           width={300}
           height={450}
-          className="shrink-0 rounded-lg "
+          className="shrink-0 rounded-lg shadow-xl border border-dark-border"
           priority
         />
         <div className="px-2 md:px-10 flex flex-col gap-y-2">
-          <h1 className="text-6xl font-bold">{movie.Title}</h1>
-          <p className="text-gray-600">{movie.Genre}</p>
+          <h1 className="text-6xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">{movie.Title}</h1>
+          <p className="text-dark-muted text-lg">{movie.Genre}</p>
 
-          <div className="mt-auto grid grid-cols-2">
-            <div className="font-semibold">
+          <div className="mt-auto grid grid-cols-2 gap-y-2">
+            <div className="font-semibold text-dark-text">
               <p>Directed by</p>
               <p>Featuring</p>
               <p>Box Office:</p>
@@ -71,7 +71,7 @@ async function MoviePage({
               <p>Language:</p>
               <p>Country:</p>
             </div>
-            <div>
+            <div className="text-dark-muted">
               <p>{movie.Director}</p>
               <p>{movie.Actors}</p>
               <p>{movie.BoxOffice}</p>
@@ -87,7 +87,7 @@ async function MoviePage({
       </div>
 
       <div className="">
-        <h2 className="text-3xl pt-10 pl-10 font-bold ">
+        <h2 className="text-3xl pt-10 pl-10 font-bold text-dark-text">
           Similar Films you may like
         </h2>
         
@@ -103,7 +103,7 @@ async function MoviePage({
             ))}
           </div>
         ) : (
-          <p className="p-10 text-gray-500">No similar movies found</p>
+          <p className="p-10 text-dark-muted">No similar movies found</p>
         )}
       </div>
     </div>

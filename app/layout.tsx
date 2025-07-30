@@ -26,17 +26,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="shortcut icon" href="/favicon.svg" />
         <link rel="apple-touch-icon" href="/favicon.svg" />
       </head>
-      <body className="bg-gradient-to-r from-purple-700/60 to-blue-500/90 max-w-7xl mx-auto">
-        <main className="bg-slate-50/50 shadow-2xl drop-shadow-2xl">
+      <body className="bg-gradient-to-br from-gray-900 via-purple-900/20 to-blue-900/30 min-h-screen max-w-7xl mx-auto">
+        <main className="bg-dark-primary/80 backdrop-blur-sm shadow-2xl drop-shadow-2xl min-h-screen">
           <Header />
           
-          <div className="pt-44">
+          <div className="pt-44 text-dark-text">
             {children}
           </div>
         </main>
